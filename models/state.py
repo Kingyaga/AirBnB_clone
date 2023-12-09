@@ -1,12 +1,9 @@
 #!/usr/bin/python3
-"""
-Defines the state model
-"""
-from .base_model import BaseModel
+"""Module for State class."""
+
+from models.base_model import BaseModel
 
 
 class State(BaseModel):
-    """
-    Blueprint for State objects
-    """
+    """Class representing a State."""
     name = ""

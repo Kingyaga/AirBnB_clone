@@ -1,17 +1,10 @@
 #!/usr/bin/python3
-"""
-Class User that inherits from BaseModel
-"""
-
+"""Module for User class."""
 from models.base_model import BaseModel
 
 
 class User(BaseModel):
-    """
-    Blueprint for a User object
-    Public Attributes that will use FileStorage in engine
-    folder to manage serialization and deserialization of User
-    """
+    """Class representing a User."""
     email = ""
     password = ""
     first_name = ""
