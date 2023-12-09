@@ -22,11 +22,11 @@ class HBNBCommand(cmd.Cmd):
                'City', 'Amenity', 'Review']
     dotcmds = ['.all()', '.count()']
 
-#   def parseline(self, line):
-#       print (f'parseline({line}) =>')
-#       ret = cmd.Cmd.parseline(self, line)
-#       print (ret)
-#       return ret
+   def parseline(self, line):
+       print (f'parseline({line}) =>')
+       ret = cmd.Cmd.parseline(self, line)
+       print (ret)
+       return ret
 
     def do_create(self, line):
         """Creates a new instance of a given class, saves it \
